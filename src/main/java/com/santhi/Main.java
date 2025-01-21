@@ -1,5 +1,6 @@
 package com.santhi;
 
+import com.santhi.repository.HQLQueries;
 import com.santhi.service.StudentService;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -11,6 +12,7 @@ public class Main {
         //StudentService.addStudent();
         //StudentService.findStudent();
         //StudentService.updateStudent();
-        StudentService.deleteStudent();
+       // StudentService.deleteStudent();
+        HQLQueries.getStudents();
     }
 }
